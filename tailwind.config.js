@@ -24,6 +24,8 @@ module.exports = {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
         dark: '#222222',
+        'teal-1000': '#019B8A',
+        'teal-1100': 'rgba(1, 155, 138, 0.7)',
       },
       keyframes: {
         flicker: {
