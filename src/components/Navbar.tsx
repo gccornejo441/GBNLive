@@ -24,7 +24,7 @@ function Navbar(props: Props): ReactElement {
             }
             href='https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation'
           >
-            Tailwind Starter Kit
+            GBN Creative
           </a>
           <button
             className='block cursor-pointer rounded border border-solid border-transparent bg-transparent px-3 py-1 text-xl leading-none outline-none focus:outline-none lg:hidden'

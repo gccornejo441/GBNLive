@@ -39,15 +39,14 @@ const cardWrite = [
   {
     id: 1,
     title: 'Branding',
-    subtitle: 'Design is Our Passion: Crafting Exceptional Experiences',
+    subtitle: 'Brand Identity is Our Passion: Crafting Exceptional Experiences',
     discription:
       "Our agency specializes in managing all aspects of clients' brand identity through advertising, design, and media to achieve measurable results and help their business grow. We offer full-service brand management and help clients stand out from the competition.",
   },
   {
     id: 2,
     title: 'Design',
-    subtitle:
-      'Stay on top of things with always up-to-date reporting features.',
+    subtitle: 'Crafting Visually Stunning and Impactful Designs for Your Brand',
     discription:
       "Our agency believes in the power of design to create exceptional experiences and pour hearts and souls into every project to craft visually stunning and impactful designs that help clients stand out. We offer full-service design to bring clients' brand to life.",
   },
@@ -102,29 +101,41 @@ const Services = () => (
             <i className='fas fa-user-friends text-xl'></i>
           </div>
           <h3 className='mb-2 text-3xl font-semibold leading-normal'>
-            Working with us is a pleasure
+            At our company, we specialize in creating memorable experiences,
+            websites, and brands.
           </h3>
           <p className='mt-4 mb-4 text-lg font-light leading-relaxed text-gray-700'>
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            Our talented team is able to turn even the most imaginative ideas
+            into beautiful designs, captivating experiences, and powerful
+            brands."
           </p>
-          <p className='mt-0 mb-4 text-lg font-light leading-relaxed text-gray-700'>
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
-          </p>
-          <a
-            href='https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation'
-            className='mt-8 font-bold text-gray-800'
-          >
-            Check Tailwind Starter Kit!
-          </a>
+          <div className='mt-10 flex justify-start'>
+            <div className='inline-flex flex-wrap justify-center gap-4'>
+              <div className='max-w-full flex-shrink-0'>
+                <a href='#'>
+                  <span aria-label='More Recipes' className='btn'>
+                    <span className='font-heading inline-flex cursor-pointer items-center justify-center justify-center rounded-full rounded-full bg-teal-1000 px-5 py-[9px] text-lg font-medium tracking-tight text-black decoration-from-font underline-offset-4 transition-colors duration-200 hover:underline focus:underline md:px-6 md:text-xl'>
+                      <span className='break-words text-left no-underline'>
+                        More
+                        <span className=' whitespace-nowrap break-all'>
+                          {' '}
+                          Recipes
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className='mr-auto ml-auto w-full px-4 md:w-4/12'>
-          <div className='relative mb-6 flex w-full min-w-0  flex-col break-words rounded-lg bg-pink-600 shadow-lg'>
+          <div className='relative mb-6 flex w-full min-w-0  flex-col break-words rounded-lg bg-teal-1100 shadow-lg'>
             <Image
               alt='...'
+              width={1051}
+              height={80}
               src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
               className='w-full rounded-t-lg align-middle'
             />
@@ -141,16 +152,16 @@ const Services = () => (
               >
                 <polygon
                   points='-30,95 583,95 583,65'
-                  className='fill-current text-pink-600'
+                  className='fill-current text-teal-1100'
                 ></polygon>
               </svg>
               <h4 className='text-xl font-bold text-white'>
-                Top Notch Services
+                Crafting Unique Experiences
               </h4>
               <p className='text-md mt-2 font-light text-white'>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens.
+                Our team of experts, who are proficient in the latest
+                technologies and platforms, will work closely with you to create
+                a customized solution that is truly unique.
               </p>
             </blockquote>
           </div>

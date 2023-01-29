@@ -27,26 +27,30 @@ const Featured = () => (
         <div className='ml-auto mr-auto w-full px-4 md:w-4/12'>
           <Image
             alt='...'
+            width={634}
+            height={951}
             className='max-w-full rounded-lg shadow-lg'
             src='https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
           />
         </div>
         <div className='ml-auto mr-auto w-full px-4 md:w-5/12'>
           <div className='md:pr-12'>
-            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-pink-300 p-3 text-center text-pink-600 shadow-lg'>
+            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-300 p-3 text-center text-teal-1000 shadow-lg'>
               <i className='fas fa-rocket text-xl'></i>
             </div>
-            <h3 className='text-3xl font-semibold'>A growing company</h3>
+            <h3 className='text-3xl font-semibold'>
+              Tailored Web Solutions for Every Challenge
+            </h3>
             <p className='mt-4 text-lg leading-relaxed text-gray-600'>
-              The extension comes with three pre-built pages to help you get
-              started faster. You can change the text and images and you're good
-              to go.
+              We offer a range of web solutions that are adaptable to any
+              platform and environment. No matter the challenge, we're dedicated
+              to finding the perfect solution for you.
             </p>
             <ul className='mt-6 list-none'>
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-pink-200 py-1 px-2 text-xs font-semibold uppercase text-pink-600'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
                       <i className='fas fa-fingerprint'></i>
                     </span>
                   </div>
@@ -60,7 +64,7 @@ const Featured = () => (
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-pink-200 py-1 px-2 text-xs font-semibold uppercase text-pink-600'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
                       <i className='fab fa-html5'></i>
                     </span>
                   </div>
@@ -72,7 +76,7 @@ const Featured = () => (
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-pink-200 py-1 px-2 text-xs font-semibold uppercase text-pink-600'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
                       <i className='far fa-paper-plane'></i>
                     </span>
                   </div>

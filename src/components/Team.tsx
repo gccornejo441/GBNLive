@@ -1,5 +1,10 @@
 import Image from 'next/image';
 
+import team1 from '~/images/team-1-800x800.jpg';
+import team2 from '~/images/team-2-800x800.jpg';
+import team3 from '~/images/team-3-800x800.jpg';
+import team4 from '~/images/team-4-470x470.png';
+
 const Team = () => (
   <section className='pt-20 pb-48'>
     <div className='container mx-auto px-4'>
@@ -18,7 +23,9 @@ const Team = () => (
           <div className='px-6'>
             <Image
               alt='...'
-              src='../images/team-1-800x800.jpg'
+              src={team1}
+              width={800}
+              height={800}
               className='mx-auto max-w-full rounded-full shadow-lg'
               style={{ maxWidth: '120px' }}
             />
@@ -54,7 +61,9 @@ const Team = () => (
           <div className='px-6'>
             <Image
               alt='...'
-              src='../images/team-2-800x800.jpg'
+              src={team2}
+              width={800}
+              height={800}
               className='mx-auto max-w-full rounded-full shadow-lg'
               style={{ maxWidth: '120px' }}
             />
@@ -84,7 +93,9 @@ const Team = () => (
           <div className='px-6'>
             <Image
               alt='...'
-              src='../images/team-3-800x800.jpg'
+              src={team3}
+              width={800}
+              height={800}
               className='mx-auto max-w-full rounded-full shadow-lg'
               style={{ maxWidth: '120px' }}
             />
@@ -120,7 +131,9 @@ const Team = () => (
           <div className='px-6'>
             <Image
               alt='...'
-              src='../images/team-1-800x800.jpg'
+              src={team4}
+              width={800}
+              height={800}
               className='mx-auto max-w-full rounded-full shadow-lg'
               style={{ maxWidth: '120px' }}
             />
