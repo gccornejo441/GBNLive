@@ -39,11 +39,7 @@ function Navbar(props: Props): ReactElement {
     >
       <div className='container mx-auto flex flex-wrap items-center justify-between px-4'>
         <div className='relative flex w-full justify-between lg:static lg:block lg:w-auto lg:justify-start'>
-          <Link
-            href='/'
-            className='group flex w-full items-center gap-x-2.5'
-            onClick={close}
-          >
+          <Link href='/' className='group flex w-full items-center gap-x-2.5'>
             <div className='rounded-full'>
               <GBNLogo />
             </div>
