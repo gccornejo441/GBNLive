@@ -34,7 +34,7 @@ const Hero = () => (
     <div className='text-center'>
       <h1 className='font-display relative mx-auto max-w-4xl text-4xl font-medium tracking-tight text-white sm:text-5xl md:text-7xl'>
         Effective{' '}
-        <span className='relative whitespace-nowrap text-[#019D8A]'>
+        <span className='relative whitespace-nowrap text-teal-1000'>
           <HeroScribble />
           <span className='relative'>Marketing Strategy</span>
         </span>{' '}
@@ -48,8 +48,8 @@ const Hero = () => (
           Learn More
         </a>
         <a
-          className='text-black-700 group inline-flex items-center justify-center rounded-full bg-teal-300 py-2 px-4 text-sm ring-1 ring-slate-200 hover:text-black hover:ring-slate-300 focus:outline-none focus-visible:outline-blue-600 focus-visible:ring-slate-300 active:bg-slate-100 active:text-slate-600'
-          href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+          className='text-black-700 group inline-flex items-center justify-center rounded-full bg-yellow-1000 py-2 px-4 text-sm ring-1 ring-yellow-1000 hover:text-black hover:ring-black focus:outline-none focus-visible:outline-blue-600 focus-visible:ring-slate-300 active:bg-slate-100 active:text-slate-600'
+          href='#'
         >
           Contact Us
         </a>
@@ -69,7 +69,7 @@ const Hero = () => (
         y='0'
       >
         <polygon
-          className='fill-current text-gray-300'
+          className='fill-current text-teal-1000'
           points='2560 0 2560 100 0 100'
         ></polygon>
       </svg>

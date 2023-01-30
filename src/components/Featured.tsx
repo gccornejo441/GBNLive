@@ -35,7 +35,7 @@ const Featured = () => (
         </div>
         <div className='ml-auto mr-auto w-full px-4 md:w-5/12'>
           <div className='md:pr-12'>
-            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-300 p-3 text-center text-teal-1000 shadow-lg'>
+            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-1000 p-3 text-center text-white shadow-lg'>
               <i className='fas fa-rocket text-xl'></i>
             </div>
             <h3 className='text-3xl font-semibold'>
@@ -50,7 +50,7 @@ const Featured = () => (
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
                       <i className='fas fa-fingerprint'></i>
                     </span>
                   </div>
@@ -64,7 +64,7 @@ const Featured = () => (
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
                       <i className='fab fa-html5'></i>
                     </span>
                   </div>
@@ -76,7 +76,7 @@ const Featured = () => (
               <li className='py-2'>
                 <div className='flex items-center'>
                   <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-200 py-1 px-2 text-xs font-semibold uppercase text-teal-1000'>
+                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
                       <i className='far fa-paper-plane'></i>
                     </span>
                   </div>

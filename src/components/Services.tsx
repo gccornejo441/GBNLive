@@ -59,7 +59,7 @@ function CardComponent() {
         return (
           <div
             key={item.id}
-            className='relative my-10 rounded-lg bg-white p-5 text-center md:my-0 xl:text-left'
+            className='relative my-10 rounded-lg bg-white p-5 text-center shadow-lg md:my-0 xl:text-left'
           >
             <div className='flex justify-center xl:justify-start'>
               <div className='w-9 rounded-lg bg-teal-1000'>
@@ -81,7 +81,7 @@ function CardComponent() {
 }
 
 const Services = () => (
-  <section className='-mt-24 bg-gray-300 pb-20'>
+  <section className='-mt-24 bg-blue-gray-100 pb-20'>
     <div className='container mx-auto px-4'>
       <div className='flex flex-wrap'>
         <div className='my-20 block lg:mt-20'>
@@ -111,19 +111,12 @@ const Services = () => (
           </p>
           <div className='mt-10 flex justify-start'>
             <div className='inline-flex flex-wrap justify-center gap-4'>
-              <div className='max-w-full flex-shrink-0'>
-                <a href='#'>
-                  <span aria-label='More Recipes' className='btn'>
-                    <span className='font-heading inline-flex cursor-pointer items-center justify-center justify-center rounded-full rounded-full bg-teal-1000 px-5 py-[9px] text-lg font-medium tracking-tight text-black decoration-from-font underline-offset-4 transition-colors duration-200 hover:underline focus:underline md:px-6 md:text-xl'>
-                      <span className='break-words text-left no-underline'>
-                        More
-                        <span className=' whitespace-nowrap break-all'>
-                          {' '}
-                          Recipes
-                        </span>
-                      </span>
-                    </span>
-                  </span>
+              <div className='relative mt-10 flex justify-center gap-x-6'>
+                <a
+                  className='group inline-flex items-center justify-center rounded-full bg-black py-2 px-4 text-sm font-semibold text-white hover:bg-teal-1000 hover:text-black focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 active:bg-gray-800 active:text-slate-300'
+                  href='/register'
+                >
+                  Learn More
                 </a>
               </div>
             </div>

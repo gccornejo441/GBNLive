@@ -1,5 +1,5 @@
 const Finisher = () => (
-  <section className='relative block bg-gray-900 pb-20'>
+  <section className='relative block bg-teal-1000 pb-20'>
     <div
       className='pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 w-full overflow-hidden'
       style={{ height: '80px' }}
@@ -14,7 +14,7 @@ const Finisher = () => (
         y='0'
       >
         <polygon
-          className='fill-current text-gray-900'
+          className='fill-current text-teal-1000'
           points='2560 0 2560 100 0 100'
         ></polygon>
       </svg>
@@ -24,7 +24,7 @@ const Finisher = () => (
       <div className='flex flex-wrap justify-center text-center'>
         <div className='w-full px-4 lg:w-6/12'>
           <h2 className='text-4xl font-semibold text-white'>Build something</h2>
-          <p className='mt-4 mb-4 text-lg leading-relaxed text-gray-500'>
+          <p className='mt-4 mb-4 text-lg leading-relaxed text-black'>
             Put the potentially record low maximum sea ice extent tihs year down
             to low ice. According to the National Oceanic and Atmospheric
             Administration, Ted, Scambos.
@@ -33,35 +33,35 @@ const Finisher = () => (
       </div>
       <div className='mt-12 flex flex-wrap justify-center'>
         <div className='w-full px-4 text-center lg:w-3/12'>
-          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg'>
+          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-teal-1000 shadow-lg'>
             <i className='fas fa-medal text-xl'></i>
           </div>
           <h6 className='mt-5 text-xl font-semibold text-white'>
             Excelent Services
           </h6>
-          <p className='mt-2 mb-4 text-gray-500'>
+          <p className='mt-2 mb-4 text-black'>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
         </div>
         <div className='w-full px-4 text-center lg:w-3/12'>
-          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg'>
+          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-teal-1000 shadow-lg'>
             <i className='fas fa-poll text-xl'></i>
           </div>
           <h5 className='mt-5 text-xl font-semibold text-white'>
             Grow your market
           </h5>
-          <p className='mt-2 mb-4 text-gray-500'>
+          <p className='mt-2 mb-4 text-black'>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
         </div>
         <div className='w-full px-4 text-center lg:w-3/12'>
-          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-gray-900 shadow-lg'>
+          <div className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-white p-3 text-teal-1000 shadow-lg'>
             <i className='fas fa-lightbulb text-xl'></i>
           </div>
           <h5 className='mt-5 text-xl font-semibold text-white'>Launch time</h5>
-          <p className='mt-2 mb-4 text-gray-500'>
+          <p className='mt-2 mb-4 text-black'>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
