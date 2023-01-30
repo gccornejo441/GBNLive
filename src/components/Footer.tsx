@@ -34,29 +34,29 @@ function Footer(): ReactElement {
                 className='align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white font-normal text-blue-400 shadow-lg outline-none focus:outline-none'
                 type='button'
               >
-                <i className='fab fa-twitter flex'></i>
+                <i className='fab fa-twitter flex justify-center'></i>
               </button>
               <button
                 className='align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white font-normal text-blue-600 shadow-lg outline-none focus:outline-none'
                 type='button'
               >
-                <i className='fab fa-facebook-square flex'></i>
+                <i className='fab fa-facebook-square flex justify-center'></i>
               </button>
               <button
                 className='align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white font-normal text-pink-400 shadow-lg outline-none focus:outline-none'
                 type='button'
               >
-                <i className='fab fa-dribbble flex'></i>
+                <i className='fab fa-dribbble flex justify-center'></i>
               </button>
               <button
                 className='align-center mr-2 h-10 w-10 items-center justify-center rounded-full bg-white font-normal text-gray-900 shadow-lg outline-none focus:outline-none'
                 type='button'
               >
-                <i className='fab fa-github flex'></i>
+                <i className='fab fa-github flex justify-center'></i>
               </button>
             </div>
           </div>
-          <div className='w-full px-4 lg:w-6/12'>
+          {/* <div className='w-full px-4 lg:w-6/12'>
             <div className='items-top mb-6 flex flex-wrap'>
               <div className='ml-auto w-full px-4 lg:w-4/12'>
                 <span className='mb-2 block text-sm font-semibold uppercase text-gray-600'>
@@ -137,7 +137,7 @@ function Footer(): ReactElement {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <hr className='my-6 border-gray-400' />
         <div className='flex flex-wrap items-center justify-center md:justify-between'>
