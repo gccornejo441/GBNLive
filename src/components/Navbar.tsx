@@ -26,6 +26,65 @@ function GBNLogo() {
   );
 }
 
+const NavItems = [
+  {
+    id: 0,
+    name: 'Home',
+    href: '/',
+  },
+  {
+    id: 1,
+    name: 'About Us',
+    href: '/about-us',
+  },
+  {
+    id: 2,
+    name: 'Features',
+    href: '/features',
+  },
+  {
+    id: 3,
+    name: 'Pricing',
+    href: '/pricing',
+  },
+  {
+    id: 4,
+    name: 'FAQ',
+    href: '/frequently-asked-questions',
+  },
+  {
+    id: 6,
+    name: 'blog',
+    href: '/blog',
+  },
+];
+
+function NavLinks(props: Props) {
+  return (
+    <>
+      {NavItems.map((item) => {
+        return (
+          <>
+            <li key={item.id} className='flex items-center'>
+              <Link
+                className={
+                  (props.transparent
+                    ? 'text-gray-800 lg:text-white lg:hover:text-gray-300'
+                    : 'text-gray-800 hover:text-gray-600') +
+                  ' flex items-center px-3 py-4 text-xs font-bold uppercase lg:py-2'
+                }
+                href={item.href}
+              >
+                {item.name}
+              </Link>
+            </li>
+          </>
+        );
+      })}
+    </>
+  );
+}
+
 function Navbar(props: Props): ReactElement {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
@@ -74,19 +133,7 @@ function Navbar(props: Props): ReactElement {
           id='example-navbar-warning'
         >
           <ul className='mr-auto flex list-none flex-col lg:flex-row'>
-            <li className='flex items-center'>
-              <Link
-                className={
-                  (props.transparent
-                    ? 'text-gray-800 lg:text-white lg:hover:text-gray-300'
-                    : 'text-gray-800 hover:text-gray-600') +
-                  ' flex items-center px-3 py-4 text-xs font-bold uppercase lg:py-2'
-                }
-                href='/'
-              >
-                Home
-              </Link>
-            </li>
+            <NavLinks {...props} />
           </ul>
           <ul className='flex list-none flex-col lg:ml-auto lg:flex-row'>
             <li className='flex items-center'>
