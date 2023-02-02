@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import featurehero from '~/images/feature-hero-illustration.png';
+import featurehero from '~/images/aboutuspage/group-of-people-sitting-indoors.jpg';
 
 /// Page Sections
 const Hero = () => (

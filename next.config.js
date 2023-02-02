@@ -9,7 +9,12 @@ const nextConfig = {
 
   // Uncoment to add domain whitelist
   images: {
-    domains: ['res.cloudinary.com', 'images.unsplash.com', 'cdn.aglty.io'],
+    domains: [
+      'res.cloudinary.com',
+      'images.unsplash.com',
+      'cdn.aglty.io',
+      'www.pexels.com',
+    ],
   },
 
   // SVGR
