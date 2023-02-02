@@ -6,7 +6,7 @@ const Services = () => (
   <section className='bg-white pb-20'>
     <div className='mx-auto my-20 px-4 lg:w-[980px] xl:w-[1280px]'>
       <div className='flex flex-wrap justify-center'>
-        <div className='ld:h-[340px] flex w-fit flex-col bg-blue-gray-100 py-10 lg:flex-row lg:py-20'>
+        <div className='ld:h-[340px] flex w-fit flex-col bg-blue-gray-100 py-10 px-3 lg:flex-row lg:px-8 lg:py-20 xl:px-24'>
           <div className='mx-5 '>
             <h4 className='text-left text-sm font-normal leading-7 text-teal-1000 lg:text-base'>
               Who we are
