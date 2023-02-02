@@ -97,19 +97,19 @@ const Services = () => (
 
       <div className='mt-32 flex flex-wrap items-center'>
         <div className='mr-auto ml-auto w-full px-4 md:w-5/12'>
-          <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-gray-100 p-3 text-center text-gray-600 shadow-lg'>
+          <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-1000 p-3 text-center text-white shadow-lg'>
             <i className='fas fa-user-friends text-xl'></i>
           </div>
           <h3 className='mb-2 text-3xl font-semibold leading-normal'>
             At our company, we specialize in creating memorable experiences,
             websites, and brands.
           </h3>
-          <p className='mt-4 mb-4 text-lg font-light leading-relaxed text-gray-700'>
+          <p className='mt-4 text-lg font-light leading-relaxed text-gray-700'>
             Our talented team is able to turn even the most imaginative ideas
             into beautiful designs, captivating experiences, and powerful
-            brands."
+            brands.
           </p>
-          <div className='mt-10 flex justify-start'>
+          <div className='mb-10 flex justify-start'>
             <div className='inline-flex flex-wrap justify-center gap-4'>
               <div className='relative mt-10 flex justify-center gap-x-6'>
                 <a
@@ -124,7 +124,7 @@ const Services = () => (
         </div>
 
         <div className='mr-auto ml-auto w-full px-4 md:w-4/12'>
-          <div className='relative mb-6 flex w-full min-w-0  flex-col break-words rounded-lg bg-teal-1100 shadow-lg'>
+          <div className='relative mb-6 flex w-full min-w-0  flex-col break-words rounded-lg bg-teal-1000 shadow-lg'>
             <Image
               alt='...'
               width={1051}
@@ -145,7 +145,7 @@ const Services = () => (
               >
                 <polygon
                   points='-30,95 583,95 583,65'
-                  className='fill-current text-teal-1100'
+                  className='fill-current text-teal-1000'
                 ></polygon>
               </svg>
               <h4 className='text-xl font-bold text-white'>

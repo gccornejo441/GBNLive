@@ -33,7 +33,7 @@ const Featured = () => (
             src='https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
           />
         </div>
-        <div className='ml-auto mr-auto w-full px-4 md:w-5/12'>
+        <div className='mt:mt-0 ml-auto mr-auto mt-8 w-full px-4 md:w-5/12'>
           <div className='md:pr-12'>
             <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-1000 p-3 text-center text-white shadow-lg'>
               <i className='fas fa-rocket text-xl'></i>

@@ -20,7 +20,7 @@ const Finisher = () => (
       </svg>
     </div>
 
-    <div className='container mx-auto px-4 lg:pt-24 lg:pb-64'>
+    <div className='container mx-auto px-4 pt-24 pb-24 lg:pb-64'>
       <div className='flex flex-wrap justify-center text-center'>
         <div className='w-full px-4 lg:w-6/12'>
           <h2 className='text-4xl font-semibold text-white'>Build something</h2>

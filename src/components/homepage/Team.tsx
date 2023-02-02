@@ -78,9 +78,9 @@ function TeamCard() {
 }
 
 const Team = () => (
-  <section className='pt-20 pb-48'>
+  <section className='md:pt-20 md:pb-48'>
     <div className='container mx-auto px-4'>
-      <div className='mb-24 flex flex-wrap justify-center text-center'>
+      <div className='mb-12 flex flex-wrap justify-center text-center'>
         <div className='w-full px-4 lg:w-6/12'>
           <h2 className='text-4xl font-semibold text-teal-1000'>
             Here are our heroes
