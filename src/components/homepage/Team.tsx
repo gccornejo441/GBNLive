@@ -8,19 +8,26 @@ const cardWrite = [
   {
     id: 0,
     name: 'Gabe',
-    title: 'Web Developer',
+    title: 'Tech Creative',
     photo: team1,
   },
+
   {
     id: 1,
-    name: 'Nick',
-    title: 'Graphic Designer',
-    photo: team2,
+    name: 'Brian',
+    title: 'Video Creative',
+    photo: team3,
   },
   {
     id: 2,
-    name: 'Brian',
-    title: 'Videographer',
+    name: 'Nick',
+    title: 'Design Creative',
+    photo: team2,
+  },
+  {
+    id: 3,
+    name: 'Megan',
+    title: 'Art Creative',
     photo: team3,
   },
 ];
@@ -34,7 +41,7 @@ function TeamCard() {
             key={item.id}
             className='mb-12 w-full px-4 md:w-6/12 lg:mb-0 lg:w-1/3'
           >
-            <div className='px-6'>
+            <div className='px-6 py-5'>
               <Image
                 alt='...'
                 src={item.photo}
