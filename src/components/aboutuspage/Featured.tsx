@@ -1,93 +1,99 @@
 import Image from 'next/image';
 
-const Featured = () => (
-  <section className='relative py-20'>
-    <div
-      className='pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 w-full overflow-hidden'
-      style={{ height: '80px' }}
-    >
-      <svg
-        className='absolute bottom-0 overflow-hidden'
-        xmlns='http://www.w3.org/2000/svg'
-        preserveAspectRatio='none'
-        version='1.1'
-        viewBox='0 0 2560 100'
-        x='0'
-        y='0'
-      >
-        <polygon
-          className='fill-current text-white'
-          points='2560 0 2560 100 0 100'
-        ></polygon>
-      </svg>
-    </div>
+import team1 from '~/images/team-1-800x800.jpg';
+import team2 from '~/images/team-2-800x800.jpg';
+import team3 from '~/images/team-3-800x800.jpg';
 
-    <div className='container mx-auto px-4'>
-      <div className='flex flex-wrap items-center'>
-        <div className='ml-auto mr-auto w-full px-4 md:w-4/12'>
-          <Image
-            alt='...'
-            width={634}
-            height={951}
-            className='max-w-full rounded-lg shadow-lg'
-            src='https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
-          />
-        </div>
-        <div className='mt:mt-0 ml-auto mr-auto mt-8 w-full px-4 md:w-5/12'>
-          <div className='md:pr-12'>
-            <div className='mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-teal-1000 p-3 text-center text-white shadow-lg'>
-              <i className='fas fa-rocket text-xl'></i>
+const cardWrite = [
+  {
+    id: 0,
+    name: 'Gabe',
+    title: 'Tech Creative',
+    photo: team1,
+  },
+
+  {
+    id: 1,
+    name: 'Brian',
+    title: 'Video Creative',
+    photo: team3,
+  },
+  {
+    id: 2,
+    name: 'Nick',
+    title: 'Design Creative',
+    photo: team2,
+  },
+  {
+    id: 3,
+    name: 'Megan',
+    title: 'Art Creative',
+    photo: team3,
+  },
+];
+
+function TeamCard() {
+  return (
+    <>
+      {cardWrite.map((item) => {
+        return (
+          <div
+            key={item.id}
+            className='mx-10 mb-12 w-full border-2 border-black px-4 py-10 md:w-6/12 lg:mb-0 lg:w-1/3'
+          >
+            <div className='px-6'>
+              <Image
+                alt='...'
+                src={item.photo}
+                width={800}
+                height={800}
+                className='mx-auto max-w-full rounded-full shadow-lg'
+                style={{ maxWidth: '120px' }}
+              />
+              <div className='pt-6 text-center'>
+                <h5 className='text-xl font-bold'>{item.name}</h5>
+                <p className='mt-1 text-sm font-semibold uppercase text-gray-500'>
+                  {item.title}
+                </p>
+                <div className='mt-6'>
+                  <button
+                    className='mr-1 mb-1 h-8 w-8 rounded-full bg-blue-400 text-white outline-none focus:outline-none'
+                    type='button'
+                  >
+                    <i className='fab fa-twitter'></i>
+                  </button>
+                  <button
+                    className='mr-1 mb-1 h-8 w-8 rounded-full bg-blue-600 text-white outline-none focus:outline-none'
+                    type='button'
+                  >
+                    <i className='fab fa-facebook-f'></i>
+                  </button>
+                  <button
+                    className='mr-1 mb-1 h-8 w-8 rounded-full bg-pink-500 text-white outline-none focus:outline-none'
+                    type='button'
+                  >
+                    <i className='fab fa-dribbble'></i>
+                  </button>
+                </div>
+              </div>
             </div>
-            <h3 className='text-3xl font-semibold'>
-              Tailored Web Solutions for Every Challenge
-            </h3>
-            <p className='mt-4 text-lg leading-relaxed text-gray-600'>
-              We offer a range of web solutions that are adaptable to any
-              platform and environment. No matter the challenge, we're dedicated
-              to finding the perfect solution for you.
-            </p>
-            <ul className='mt-6 list-none'>
-              <li className='py-2'>
-                <div className='flex items-center'>
-                  <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
-                      <i className='fas fa-fingerprint'></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 className='text-gray-600'>
-                      Carefully crafted components
-                    </h4>
-                  </div>
-                </div>
-              </li>
-              <li className='py-2'>
-                <div className='flex items-center'>
-                  <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
-                      <i className='fab fa-html5'></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 className='text-gray-600'>Amazing page examples</h4>
-                  </div>
-                </div>
-              </li>
-              <li className='py-2'>
-                <div className='flex items-center'>
-                  <div>
-                    <span className='mr-3 inline-block rounded-full bg-teal-1000 py-1 px-2 text-xs font-semibold uppercase text-white'>
-                      <i className='far fa-paper-plane'></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 className='text-gray-600'>Dynamic components</h4>
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
-        </div>
+        );
+      })}
+    </>
+  );
+}
+
+const Featured = () => (
+  <section className='bg-blue-gray-100 py-8 md:py-12 lg:py-20'>
+    <div className='container mx-auto px-6 text-center'>
+      <h2 className='text-center text-5xl font-semibold not-italic text-teal-1000 sm:text-4xl md:text-5xl lg:text-6xl'>
+        Meet Our Team
+      </h2>
+    </div>
+    <div className='container mx-auto px-6'>
+      <div className='my-[100px] flex'>
+        <TeamCard />
       </div>
     </div>
   </section>

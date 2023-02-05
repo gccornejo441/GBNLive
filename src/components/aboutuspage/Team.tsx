@@ -8,19 +8,26 @@ const cardWrite = [
   {
     id: 0,
     name: 'Gabe',
-    title: 'Web Developer',
+    title: 'Tech Creative',
     photo: team1,
   },
+
   {
     id: 1,
-    name: 'Nick',
-    title: 'Graphic Designer',
-    photo: team2,
+    name: 'Brian',
+    title: 'Video Creative',
+    photo: team3,
   },
   {
     id: 2,
-    name: 'Brian',
-    title: 'Videographer',
+    name: 'Nick',
+    title: 'Design Creative',
+    photo: team2,
+  },
+  {
+    id: 3,
+    name: 'Megan',
+    title: 'Art Creative',
     photo: team3,
   },
 ];
