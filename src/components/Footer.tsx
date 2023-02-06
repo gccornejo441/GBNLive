@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 
 function Footer(): ReactElement {
   return (
-    <footer className='relative bg-blue-gray-100 pt-8 pb-6'>
+    <footer className='relative bg-white pt-8 '>
       <div
         className='pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 w-full overflow-hidden'
         style={{ height: '80px' }}
@@ -17,7 +17,7 @@ function Footer(): ReactElement {
           y='0'
         >
           <polygon
-            className='fill-current text-blue-gray-100'
+            className='fill-current text-white'
             points='2560 0 2560 100 0 100'
           ></polygon>
         </svg>
@@ -139,19 +139,19 @@ function Footer(): ReactElement {
             </div>
           </div> */}
         </div>
-        <hr className='my-6 border-gray-400' />
-        <div className='flex flex-wrap items-center justify-center md:justify-between'>
-          <div className='mx-auto w-full px-4 text-center md:w-4/12'>
-            <div className='py-1 text-sm font-semibold text-gray-600'>
-              Copyright © {new Date().getFullYear()} GBN Creative By{' '}
-              <a
-                href='https://www.webworksdreams.com'
-                className='text-gray-600 hover:text-gray-900'
-              >
-                WebWorks Dreams
-              </a>
-              .
-            </div>
+        <hr className='my-6 border-white' />
+      </div>
+      <div className='flex flex-wrap items-center justify-center bg-white py-5 md:justify-between'>
+        <div className='mx-auto w-full px-4 text-center md:w-4/12'>
+          <div className='py-1 text-sm font-semibold text-gray-600'>
+            Copyright © {new Date().getFullYear()} GBN Creative By{' '}
+            <a
+              href='https://www.webworksdreams.com'
+              className='text-gray-600 hover:text-gray-900'
+            >
+              WebWorks Dreams
+            </a>
+            .
           </div>
         </div>
       </div>

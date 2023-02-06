@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
-import team1 from '~/images/team-1-800x800.jpg';
-import team2 from '~/images/team-2-800x800.jpg';
-import team3 from '~/images/team-3-800x800.jpg';
+import team1 from '~/images/gabe-cornejo-headshot.png';
+import team4 from '~/images/Megan-Litner-headshot.jpg';
+import team2 from '~/images/Nick-Preston-headshot.jpg';
+import team3 from '~/images/team-1-800x800.jpg';
 
 const cardWrite = [
   {
@@ -28,7 +29,7 @@ const cardWrite = [
     id: 3,
     name: 'Megan',
     title: 'Art Creative',
-    photo: team3,
+    photo: team4,
   },
 ];
 
@@ -39,7 +40,7 @@ function TeamCard() {
         return (
           <div
             key={item.id}
-            className='mx-10 mb-12 w-full border-2 border-black px-4 py-10 md:w-6/12 lg:mb-0 lg:w-1/3'
+            className='mx-10 mb-12 w-full rounded-lg border-[1px] bg-white px-4 py-10 shadow-lg md:w-6/12 lg:mb-0 lg:w-1/3'
           >
             <div className='px-6'>
               <Image
