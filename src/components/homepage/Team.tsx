@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
-import team1 from '~/images/team-1-800x800.jpg';
-import team2 from '~/images/team-2-800x800.jpg';
-import team3 from '~/images/team-3-800x800.jpg';
+import team1 from '~/images/gabe-cornejo-headshot.png';
+import team4 from '~/images/Megan-Litner-headshot.jpg';
+import team2 from '~/images/Nick-Preston-headshot.jpg';
+import team3 from '~/images/team-1-800x800.jpg';
 
 const cardWrite = [
   {
@@ -28,7 +29,7 @@ const cardWrite = [
     id: 3,
     name: 'Megan',
     title: 'Art Creative',
-    photo: team3,
+    photo: team4,
   },
 ];
 
