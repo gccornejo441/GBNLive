@@ -40,9 +40,9 @@ function TeamCard() {
         return (
           <div
             key={item.id}
-            className='mb-12 w-full px-4 md:w-6/12 lg:mb-0 lg:w-1/3'
+            className='rounded-lg border-[1px] bg-white py-10 drop-shadow-lg transition duration-150 ease-out hover:shadow-lg hover:shadow-teal-1000 hover:ease-in xl:max-w-[300px]'
           >
-            <div className='px-6 py-5'>
+            <div className='px-2 py-2'>
               <Image
                 alt='...'
                 src={item.photo}
@@ -86,7 +86,7 @@ function TeamCard() {
 }
 
 const Team = () => (
-  <section className='md:pt-20 md:pb-48'>
+  <section className='my-10 md:pt-20 md:pb-48'>
     <div className='container mx-auto px-4'>
       <div className='mb-12 flex flex-wrap justify-center text-center'>
         <div className='w-full px-4 lg:w-6/12'>
@@ -95,7 +95,7 @@ const Team = () => (
           </h2>
         </div>
       </div>
-      <div className='flex flex-wrap'>
+      <div className='mx-auto grid w-[300px] gap-5 lg:w-[600px] lg:grid-cols-2 xl:w-full xl:grid-cols-4 xl:gap-0'>
         <TeamCard />
       </div>
     </div>

@@ -7,10 +7,10 @@ const UnderConstruction = () => (
     alignItems='center'
     justifyContent='center'
     minH='100vh'
-    bg='gray.200'
+    bg='rgba(44, 188, 135, 0.7)'
     p={8}
   >
-    <Box maxW='sm'>
+    <Box maxW='sm' bg='#fff' p={10} borderRadius='lg'>
       <Heading as='h1' size='xl' textAlign='center' mb={4}>
         Under Construction
       </Heading>

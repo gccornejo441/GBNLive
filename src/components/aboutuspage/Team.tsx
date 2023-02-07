@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
-import team1 from '~/images/team-1-800x800.jpg';
-import team2 from '~/images/team-2-800x800.jpg';
-import team3 from '~/images/team-3-800x800.jpg';
+import team1 from '~/images/gabe-cornejo-headshot.png';
+import team4 from '~/images/Megan-Litner-headshot.jpg';
+import team2 from '~/images/Nick-Preston-headshot.jpg';
+import team3 from '~/images/team-1-800x800.jpg';
 
 const cardWrite = [
   {
@@ -28,7 +29,7 @@ const cardWrite = [
     id: 3,
     name: 'Megan',
     title: 'Art Creative',
-    photo: team3,
+    photo: team4,
   },
 ];
 
@@ -39,9 +40,9 @@ function TeamCard() {
         return (
           <div
             key={item.id}
-            className='mb-12 w-full px-4 md:w-6/12 lg:mb-0 lg:w-1/3'
+            className='rounded-lg border-[1px] bg-white py-10 drop-shadow-lg transition duration-150 ease-out hover:shadow-lg hover:shadow-teal-1000 hover:ease-in xl:max-w-[300px]'
           >
-            <div className='px-6'>
+            <div className='px-2 py-2'>
               <Image
                 alt='...'
                 src={item.photo}
@@ -94,7 +95,7 @@ const Team = () => (
           </h2>
         </div>
       </div>
-      <div className='flex flex-wrap'>
+      <div className='mx-auto grid w-[300px] gap-5 lg:w-[600px] lg:grid-cols-2 xl:w-full xl:grid-cols-4 xl:gap-0'>
         <TeamCard />
       </div>
     </div>

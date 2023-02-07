@@ -1,19 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import featurehero from '~/images/aboutuspage/group-of-people-sitting-indoors.jpg';
+import featurehero from '~/images/featurespage/feature-hero-illustration.png';
 
 /// Page Sections
 const Hero = () => {
   // Hero Details: title, about, description, image, imageAlt, buttonText
   const HeroDetails = {
-    title: 'Marketing, Branding, & Design Expertise That Sets You Apart',
-    about: 'About GBN',
+    title: 'Unleash Your Brand’s Potential',
+    about: 'GBN Features',
     description:
-      'Discover how GBN Creative can help set your business apart with expert marketing, branding, and design solutions. Learn more today.',
+      'Discover the Power of Customized Solutions, Data-Driven Insights, and Collaborative Partnerships',
     image: featurehero,
     imageAlt: 'Overhead photo of an Island',
-    buttonText: 'Read Our Blog',
+    buttonText: 'View Pricing',
   };
 
   return (

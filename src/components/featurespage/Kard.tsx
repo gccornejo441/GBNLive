@@ -54,7 +54,7 @@ const CardComponent: React.FC<CardProps> = ({ image, title, description }) => (
 
 const Kard = () => {
   // Section Title
-  const sectionTitle = 'The benefits of working with us';
+  const sectionTitle = 'Partner With Us For Optimal Results';
 
   return (
     <section>
@@ -69,7 +69,7 @@ const Kard = () => {
         </Heading>
       </div>
       <div className='flex justify-center bg-white py-10'>
-        <div className='grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-0'>
+        <div className='flex justify-between'>
           {mockData.map((item) => {
             return (
               <CardComponent
