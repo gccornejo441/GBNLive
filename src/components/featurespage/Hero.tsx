@@ -17,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='relative bg-teal-1000 px-8'>
+    <section className='relative bg-teal-1000 px-8'>
       <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between py-20 md:flex-row md:py-24'>
         <div className='relative flex-shrink-0 md:w-6/12 '>
           <Link className='relative' href='/blog'>
@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -57,7 +57,7 @@ const Kard = () => {
   const sectionTitle = 'Partner With Us For Optimal Results';
 
   return (
-    <section>
+    <section className='mt-32 w-full overflow-hidden'>
       <div className='mx-auto w-[400px] pt-16'>
         <Heading
           as='h2'
@@ -69,7 +69,7 @@ const Kard = () => {
         </Heading>
       </div>
       <div className='flex justify-center bg-white py-10'>
-        <div className='flex justify-between'>
+        <div className='grid gap-5 lg:grid-cols-3'>
           {mockData.map((item) => {
             return (
               <CardComponent

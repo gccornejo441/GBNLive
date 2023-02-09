@@ -2,10 +2,10 @@ import UnderConstruction from '@/components/UnderConstruction';
 
 import Layout from '../components/Layout';
 
-const FAQPage = () => (
-  <Layout title='FAQ | GBN Creative | Marketing, Branding, & Design Solutions'>
+const ContactPage = () => (
+  <Layout title='Contact Us | GBN Creative | Marketing, Branding, & Design Contact Page'>
     <UnderConstruction />
   </Layout>
 );
 
-export default FAQPage;
+export default ContactPage;

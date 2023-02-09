@@ -56,7 +56,7 @@ const faqs = [
 const FAQ = () => (
   <div className='bg-blue-gray-100 py-10 pb-[150px]'>
     <Box maxW='800px' mx='auto' mt={10}>
-      <Heading as='h2' mb={5}>
+      <Heading as='h2' mb={5} ml={4}>
         Frequently Asked Questions
       </Heading>
       <Accordion allowMultiple>

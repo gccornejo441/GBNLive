@@ -14,6 +14,7 @@ const nextConfig = {
       'images.unsplash.com',
       'cdn.aglty.io',
       'www.pexels.com',
+      'images.pexels.com',
     ],
   },
 

@@ -44,17 +44,12 @@ const NavItems = [
   },
   {
     id: 3,
-    name: 'Pricing',
-    href: '/pricing',
+    name: 'Contact Us',
+    href: '/contact-us',
   },
   {
     id: 4,
-    name: 'FAQ',
-    href: '/frequently-asked-questions',
-  },
-  {
-    id: 6,
-    name: 'blog',
+    name: 'Blog',
     href: '/blog',
   },
 ];

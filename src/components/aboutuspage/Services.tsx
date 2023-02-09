@@ -11,26 +11,25 @@ const Services = () => (
             <h4 className='text-left text-sm font-normal leading-7 text-teal-1000 lg:text-base'>
               Who we are
             </h4>
-            <h3 className='whitespace-nowrap py-3 text-left font-semibold leading-10  text-teal-1000 md:text-3xl xl:text-4xl'>
+            <h3 className='whitespace-nowrap py-3 text-left text-2xl font-semibold  leading-10 text-teal-1000 md:text-3xl xl:text-4xl'>
               Goal Focused
             </h3>
             <p className='text-left font-normal not-italic leading-7 text-teal-1000 md:text-sm xl:text-base'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              GBN Creative provides tailored marketing, branding, and design
+              solutions to help you reach your business goals. Find the perfect
+              strategy for your business today.
             </p>
           </div>
-          <div className='mx-5  '>
+          <div className='mx-5'>
             <div className='my-7'></div>
-            <h3 className='whitespace-nowrap py-3 text-left font-semibold leading-10 text-teal-1000 md:text-3xl xl:text-4xl'>
-              Continuous improvement
+            <h3 className='whitespace-nowrap py-3 text-left text-2xl font-semibold leading-10 text-teal-1000 md:text-3xl xl:text-4xl'>
+              Continuous Improvement
             </h3>
             <p className='text-left font-normal not-italic leading-7 text-teal-1000 md:text-sm xl:text-base'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Stay ahead of the competition with GBN Creative's continuous
+              improvement approach to marketing, branding, and design. Get
+              expert guidance and the tools you need to take your business
+              further.
             </p>
           </div>
         </div>
